@@ -9,11 +9,7 @@ para "imes", La letra "a" es convertida para "ai", La letra "o" es convertida pa
 convertida para "ufat" */
 function encriptar(cadenaUsuario){
     // Declaramos una variable tipo arreglo de dos dimensiones, con sus respectivas letras y cambios
-<<<<<<< HEAD
     let letraEncriptar = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
-=======
-    let letraEncriptar = [["e","enter"],["i","emes"],["a","ai"],["o","ober"],["u","ufat"]];
->>>>>>> b8ff17dbb10f1c444534eea45a68fe27a55e15c8
     //Permite convertir las letras del texto en minúsculas
     cadenaUsuario = cadenaUsuario.toLowerCase();
     //Colocamos una iteración para revisar la cadena de caracteres y contrastar contra nuestro arreglo
