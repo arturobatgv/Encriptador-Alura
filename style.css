@@ -146,3 +146,20 @@ border: none;
         width: 180px;
         text-transform: uppercase;
     }
+
+    footer{
+        padding: 1%;
+        background: linear-gradient(white 20%, #7BD0CD );
+        text-align: center;
+    }
+    footer img{
+        margin-top: 40px;
+        padding: 5px;
+        width: 10%;
+    }
+    .copyright{
+        font-size: 13px;
+        color:  #000000;
+        text-shadow: 2px 2px white;
+        font-weight: 600;
+    }
