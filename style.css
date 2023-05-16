@@ -142,7 +142,7 @@ border: none;
         cursor: pointer;
         height: 50px;
         margin-top: 10px;
-        margin-left: 130px;
+        margin-left: 50px;
         width: 180px;
         text-transform: uppercase;
     }
@@ -162,4 +162,19 @@ border: none;
         color:  #000000;
         text-shadow: 2px 2px white;
         font-weight: 600;
+    }
+
+    .compartir{
+        border: 1px solid;
+        background-color: #7BD0CD;
+        border: 3px solid #31a8a4;
+        border-radius: 25px;
+        color: #000000;
+        font-weight: bold;
+        cursor: pointer;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 180px;
+        text-transform: uppercase;
     }
