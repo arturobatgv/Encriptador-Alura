@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Encriptador</title>
+        <link rel="shortcut icon" href="logoSergio/sg.png">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="encabezado">
+            <h1><img id="logo" src="logoSergio/sgSinFondo.png" alt="Logo del Desarrollador"></h1>
+            <h2 class="tituloPrincipal">¡Bienvendos al Encriptador Alura!</h2>
+            </div>
+        </header>
+        <main>
+            <section>
+            <textarea  class="cajaTexto" placeholder="Ingresa un texto para Encrtiptar" cols="28" rows="10" autofocus minlength="1"></textarea>
+                <section class="btns-mensaje">
+                    <div>
+                        <h6 class="informacion">&#128712; Solo letras minúsculas y sin acentos</h6>
+                    </div>
+                    <div class="botones">
+                    <button class="btnEncriptar" onclick="imprimirTextoEncriptar()">Encriptar</button>
+                    <button class="btnDesencriptar" onclick="imprimirTextoDesEncriptar()">Desencriptar</button>
+                </div>
+                </section>
+            </section>
+            <section>
+                <textarea class="cajaMensaje" cols="26" rows="13" readonly placeholder="Ningún mensaje fue encontrado." ></textarea>
+                <div>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <img src="logoSergio/sgSinFondo.png">
+            <p class="copyright">&copy Copyrigth Sergio González - 2023</p>     
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
