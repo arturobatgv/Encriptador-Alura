@@ -110,7 +110,8 @@ function aparecerImagen(){
 
 
     function compartir() {
-        var texto = textUsuario;
+        var texto = textResultado.value;
+        alert(texto)
         var url = "whatsapp://send?text=" + encodeURIComponent(texto);
         window.location.href = url;
     }
