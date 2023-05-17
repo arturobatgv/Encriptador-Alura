@@ -155,7 +155,7 @@ border: none;
         cursor: pointer;
         height: 50px;
         margin-top: 10px;
-        margin-left: 50px;
+        margin-left: 140px;
         width: 180px;
         text-transform: uppercase;
         transition: 1s all;
@@ -167,7 +167,7 @@ border: none;
         transform: scale(1.10);
         text-shadow: 2px 2px #31a8a4, 4px 4px rgba(50,50,50,0.5);
     }
-
+/*
     .compartir{
         border: 1px solid;
         background-color: #7BD0CD;
@@ -183,13 +183,15 @@ border: none;
         text-transform: uppercase;
         transition: 1s all;
     }
+    
     .compartir:hover{
         background-color:  #000000;
         color: #ffffff;
         transform: scale(1.10);
         text-shadow: 2px 2px #31a8a4, 4px 4px rgba(50,50,50,0.5);
     }
-
+    <button class="compartir" onclick="compartir()">compartir</button>
+*/
     footer{
         padding: 1%;
         background: linear-gradient(white 20%, #7BD0CD );
