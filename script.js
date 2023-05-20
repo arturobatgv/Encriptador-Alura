@@ -108,11 +108,11 @@ function aparecerImagen(){
         textUsuario.style.backgroundImage = "none"
     }
 
-    /*
+    
     function compartir() {
         var texto = textResultado.value;
         alert(texto)
         var url = "whatsapp://send?text=" + encodeURIComponent(texto);
         window.location.href = url;
-    }*/
+    }
     
