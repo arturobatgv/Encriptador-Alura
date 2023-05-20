@@ -110,9 +110,13 @@ function aparecerImagen(){
 
     
     function compartir() {
-        var texto = textResultado.value;
-        alert(texto)
-        var url = "whatsapp://send?text=" + encodeURIComponent(texto);
-        window.location.href = url;
+        if(textResultado.value.length == 0) {
+            alert("Para que puedas compartir el texto, es necesario ingresar texto para encriptar o desencriptar");
+        }   
+            else {
+                var texto = textResultado.value;
+                var url = "whatsapp://send?text=" + encodeURIComponent(texto);
+                window.location.href = url;
+            }
     }
     
