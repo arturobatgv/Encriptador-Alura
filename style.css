@@ -24,7 +24,6 @@ header{
     position: absolute;
     top: 10px;
     right: 22%;
-    display: inline-block;
     font-size: 2em;
     font-weight: bold;
     clear: left;
@@ -47,7 +46,7 @@ main{
 .cajaTexto{
 border: none;
  color: #000000;
- margin-top: 40px;
+ margin-top: 30px;
  text-transform: lowercase;
  font-size: 32px;    
 }
@@ -59,7 +58,7 @@ border: none;
     }
 
 .btns-mensaje{
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 .btns-mensaje img{
@@ -209,4 +208,61 @@ border: none;
         font-weight: 600;
     }
 
+    @media screen and (max-width:480px){
+        #logo{
+            width: 20%;
+            
+        }
+        .tituloPrincipal{
+            font-size: 18px;
+            position: none;
+            margin: 0px 0px 0px 100px;
+            text-align: center;
+        }
+        
+        .cajaMensaje{               
+            
+            margin-top: 5px;
+            font-size: 18px;
+
+        }
+        .cajaMensaje::placeholder{
+            color: #ffffff;
+            text-shadow: 2px 2px black, 4px 4px rgba(50,50,50,0.5);    
+            text-align: center;
+            line-height: 100%;
+            position: absolute;
+            top: 100px;
+            right: 10px;
+        }
+
+         .btns-mensaje{
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+        .btnEncriptar{
+            width: 130px;
+            height: 40px;
+            font-size: 11px;
+        }
+        .btnDesencriptar{
+            width: 130px;
+            height: 40px;
+            font-size: 11px;
+        }
+        
+        .encabezado, main, .cajaTexto{
+            display: block;
+            width: auto;
+            font-size: 20px;
+            margin-left: 19px;
+        }
+        
+        .copiar{
+            margin-left: 20px;
+            width: 130px;
+            height: 40px;
+            font-size: 11px;
+        }
+    }
     
