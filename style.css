@@ -42,7 +42,6 @@ main{
 }
 
 
-
 .cajaTexto{
 border: none;
  color: #000000;
@@ -272,6 +271,12 @@ border: none;
             color: #ffffff;
             transform: scale(1.10);
             text-shadow: 2px 2px #31a8a4, 4px 4px rgba(50,50,50,0.5);
+        }
+
+        .logoWa{
+            width: 10%;
+            margin-right: 5px;
+            vertical-align: top;
         }
     }
     
