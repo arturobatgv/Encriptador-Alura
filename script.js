@@ -110,12 +110,16 @@ function aparecerImagen(){
 
     
     function compartir() {
+        // Si la caja de Resultado se encuentra vacía mandara una alerta informando de esto
         if(textResultado.value.length == 0) {
             alert("Para que puedas compartir el texto, es necesario ingresar texto para encriptar o desencriptar");
         }   
             else {
+                //Se almacena el valor del resultado en la variable texto
                 var texto = textResultado.value;
+                //Se crea la variable url con el link de whatsapp contatenando el texto que se va a compartir
                 var url = "whatsapp://send?text=" + encodeURIComponent(texto);
+                //Se activa el copartir con la url
                 window.location.href = url;
             }
     }
